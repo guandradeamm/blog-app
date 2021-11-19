@@ -210,7 +210,7 @@ export const getFeaturedPosts = async () => {
 };
 
 export const submitComment = async (obj) => {
-  const result = await fetch("/api/comments", {
+  const result = await fetch("https://graphqlblog.netlify.app/api/comments", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
