@@ -2,6 +2,7 @@ import Head from "next/head";
 import { PostCard, Categories, PostWidget } from "../components";
 import { getPosts } from "../services";
 import { FeaturedPosts } from "../sections";
+import absoluteUrl from "next-absolute-url";
 
 export default function Home({ posts }) {
   return (
@@ -26,6 +27,12 @@ export default function Home({ posts }) {
     </div>
   );
 }
+
+export async function getInitialProps({ req }) {
+  const { origin } = absoluteUrl(req, req.headers.host);
+  console.log("Requested URL ->", origin);
+}
+
 export async function getStaticProps() {
   const posts = (await getPosts()) || [];
 
