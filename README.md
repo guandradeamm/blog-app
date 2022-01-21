@@ -1,29 +1,49 @@
-# Next.js + Tailwind CSS Example
+# Development Blog
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![Portfolio Logo](./assets/img/logo.svg)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+> A fully responsive CMS Blog app with featuredand recent posts, categories. full markdown articles, author information, comments, and much more.
 
-## Preview
+---
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+**Technologies used:**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- React.js
+- Graphql
+- Tailwind CSS
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+**Configuration:**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+1. After cloning the respository, install the dependencies:
 
-## How to use
+- using npm:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
+npm install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- using yarn:
+
+```
+yarn
+```
+
+2. To run the application locally you can utilize the start script:
+
+- using npm:
+
+```
+npm run start
+```
+
+- using yarn:
+
+```
+yarn start
+```
+
+**Live Demo:**
+
+You can check a live demo of the app running [here](https://developmentblog.vercel.app)

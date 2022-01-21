@@ -8,7 +8,7 @@ export default function Home({ posts }) {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Head>
-        <title>DEVELOPMENT BLOG</title>
+        <title>Development Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
@@ -29,8 +29,8 @@ export default function Home({ posts }) {
 }
 
 export async function getInitialProps({ req }) {
-  const { origin } = absoluteUrl(req, req.headers.host);
-  console.log("Requested URL ->", origin);
+  const host = absoluteUrl(req, req.headers.host);
+  console.log("Requested URL ->", host.origin);
 }
 
 export async function getStaticProps() {
