@@ -1,6 +1,6 @@
 # Development Blog
 
-![Portfolio Logo](./assets/img/logo.svg)
+![Portfolio Logo](../assets/img/logo.svg)
 
 > A fully responsive CMS Blog app with featuredand recent posts, categories. full markdown articles, author information, comments, and much more.
 
